@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/291aa0a235.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <!-- <title>screenCommodities</title> -->
+    
+</head>
+
+<body>
+    <div class="cab"> 
+   
+        <img class="logo"  src="/Lotofacil/Img/isb.jpg" alt="Reference image" />
+
+        <div class="title">
+            Gerador <br>
+            de números <br>
+            Loterias Caixa
+        </div >
+
+        <div class='bt1'>
+  
+        <button id="call-lotofacil" class="b1" width="'fit-content">Lotofácil</button> 
+       <br><br>
+        <button id="call-lotomania"  class="b1">Lotomania</button> 
+        </div>
+        <br>
+        <div class="bt2">
+        <button id="call-megasena" class="b1">MegaSena</button> <br>
+        <br>
+        <button id="call-megasena" class="b1">Quina</button>
+        <!-- <button class="b1">Dupla-sena</button>  -->
+              
+        </div> 
+    </div>
+        <div class="converter">
+  <div class="entradas">
+  <input type="number" id="qtd" placeholder="Digite quantos numeros jogar">
+  <br><br>
+  <button class="b2" onclick="gerarNumeros()">Gerar</button>
+  <button class="b3" onclick="limpa()">Limpar</button>
+  </div>
+  
+  <div class="saidas">
+    
+    <table id="tabela"></table>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
